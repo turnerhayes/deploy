@@ -1,7 +1,8 @@
 #!/usr/bin/nodejs
 "use strict";
 
-require("dotenv").config();
+const path = require("path");
+require("dotenv").config({ path: path.resolve("..", ".env") });
 const debug = require("debug")("deploy:server");
 const app   = require("../app");
 
