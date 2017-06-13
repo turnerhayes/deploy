@@ -2,7 +2,7 @@
 "use strict";
 
 const path = require("path");
-require("dotenv").config({ path: path.resolve("..", ".env") });
+require("dotenv").config({ path: path.resolve(__dirname, "..", ".env") });
 const debug = require("debug")("deploy:server");
 const app   = require("../app");
 
