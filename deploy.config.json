@@ -1,0 +1,12 @@
+{
+	"apps": {
+		"quintro_dev": {
+			"repo": "https://github.com/turnerhayes/quintro",
+			"branch": "react-redux",
+			"localPath": "quintro_dev",
+			"filesToKeep": [".env"],
+			"appType": "node",
+			"environment": "production"
+		}
+	}
+}

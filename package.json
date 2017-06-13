@@ -1,0 +1,28 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodejs ./bin/www.js",
+    "start:dev": "DEBUG=deploy:* nodemon ./bin/www.js",
+    "lint": "eslint .; exit 0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "debug": "^0.7.4",
+    "del": "^3.0.0",
+    "dotenv": "^4.0.0",
+    "express": "~4.0.0",
+    "http-status-codes": "^1.1.6",
+    "mkdirp": "^0.5.1",
+    "morgan": "~1.0.0",
+    "mv": "^2.1.1",
+    "nodegit": "^0.18.3",
+    "static-favicon": "~1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "nodemon": "^1.11.0"
+  }
+}
